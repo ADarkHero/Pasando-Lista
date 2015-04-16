@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><config>	
+	<position>
+		<x></x>
+		<y></y>
+	</position>
+	<background>
+		<image>false</image>
+	</background>
+	<font>
+		<color>0xffffffff</color>
+	</font>
+	<save>
+		<name>cnf/sample.xml</name>
+		<autosave>true</autosave>
+		<value>0</value>
+	</save>
+</config>

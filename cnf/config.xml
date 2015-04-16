@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><config>	
+	<position>
+		<x/>
+		<y/>
+	</position>
+	<background>
+		<image>false</image>
+	</background>
+	<font>
+		<color>0xffffffff</color>
+	</font>
+	<save>
+		<name>C:\Users\ADarkHero\Dropbox\_Dokumente\NetBeansProjects\PasandoLista\cnf\usr\adarkhero.xml</name>
+		<autosave>true</autosave>
+		<value>100</value>
+	</save>
+</config>

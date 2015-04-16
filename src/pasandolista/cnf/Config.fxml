@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="215.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasandolista.cnf.ConfigController">
+   <children>
+      <Button fx:id="updateConfigButton" defaultButton="true" layoutX="420.0" layoutY="170.0" onAction="#updateConfig" prefHeight="25.0" prefWidth="100.0" text="Update Config" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeConfigButton" layoutX="269.0" layoutY="170.0" onAction="#closeConfig" prefHeight="25.0" prefWidth="146.0" text="Close (without saving!)" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="currentValue" layoutX="170.0" layoutY="45.0" prefHeight="25.0" prefWidth="350.0" />
+      <TextField fx:id="backgroundImage" disable="true" editable="false" layoutX="170.0" layoutY="105.0" prefHeight="25.0" prefWidth="228.0" />
+      <Label layoutX="14.0" layoutY="14.0" text="Configuration">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="45.0" text="Current Value">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="75.0" text="Autosave">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="105.0" text="Background Image">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="165.0" prefHeight="35.0" prefWidth="186.0" text="Restart program after configuration update to apply changes!" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <TextField fx:id="autoSave" disable="true" editable="false" layoutX="170.0" layoutY="75.0" prefHeight="25.0" prefWidth="285.0" />
+      <Button fx:id="changeAutosaveButton" layoutX="462.0" layoutY="75.0" mnemonicParsing="false" onAction="#changeAutoSave" text="Change" />
+      <Button fx:id="changeBackgroundImageButton" layoutX="462.0" layoutY="105.0" mnemonicParsing="false" onAction="#changeBackgroundImage" text="Change" />
+      <Button fx:id="deleteBackgroundImageButton1" layoutX="404.0" layoutY="105.0" mnemonicParsing="false" onAction="#deleteBackgroundImage" text="Delete" />
+      <Label layoutX="14.0" layoutY="135.0" text="Font Color">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ColorPicker fx:id="fontColor" layoutX="170.0" layoutY="135.0" prefHeight="25.0" prefWidth="350.0" />
+      <Button fx:id="loadConfigButton" layoutX="463.0" layoutY="15.0" onAction="#loadConfig" prefHeight="25.0" prefWidth="57.0" text="Load" textAlignment="CENTER" />
+      <Button fx:id="newConfigButton" layoutX="401.0" layoutY="15.0" onAction="#newConfig" prefHeight="25.0" prefWidth="57.0" text="New" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
