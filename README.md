@@ -1,5 +1,5 @@
 # PasandoLista
-![PasandoLista Screenshot](http://i.imgur.com/u236ynf.png)
+![PasandoLista Screenshot](http://i.imgur.com/NFUAHzT.png)
 
 A simple, optimizable counter.
 
